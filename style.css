@@ -4,6 +4,59 @@
   box-sizing: border-box;
 }
 
-body, html {
+body,
+html {
+  height: 100%;
+  width: 100%;
   font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  /*height: 500px;
+  width: 500px;*/
+  background-color: #0a0a0a;
+  color: #9bc7d6;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+header {
+  height: 100px;
+  width: 100%;
+  background-color: #353535;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding: 20px;
+}
+
+li {
+  list-style: none;
+  text-align: right;
+}
+
+#operation {
+  font-size: 20px;
+}
+
+#answer {
+  font-size: 35px;
+}
+
+section {
+  margin-top: 4px;
+}
+
+button {
+  font-size: 30px;
+  height: 60px;
+  width: 60px;
+  background-color: #353535;
+  color: #ffffff;
+  border-style: none;
+  border-radius: 50%;
 }
