@@ -12,6 +12,8 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+  background: rgb(0,35,42);
+  background: linear-gradient(135deg, rgba(0,35,42,1) 0%, rgba(155,199,214,1) 100%); 
 }
 
 main {
@@ -32,6 +34,7 @@ header {
   align-items: center;
   justify-content: right;
   padding: 20px;
+  margin-bottom: 15px;
 }
 
 li {
@@ -48,7 +51,7 @@ li {
 }
 
 section {
-  margin-top: 4px;
+  margin-top: 5px;
 }
 
 button {
@@ -58,5 +61,5 @@ button {
   background-color: #353535;
   color: #ffffff;
   border-style: none;
-  border-radius: 50%;
+  border-radius: 20px;
 }
